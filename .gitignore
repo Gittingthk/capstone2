@@ -1,0 +1,35 @@
+# Conda 가상환경
+/envs/
+*.pyc
+__pycache__/
+
+# 로그 파일
+*.log
+system.log
+
+# 환경 설정 파일
+.env
+
+# IDE 설정
+.vscode/
+.idea/
+
+# 임시 파일
+*.tmp
+*.temp
+*.swp
+
+# 운영체제 파일
+.DS_Store
+Thumbs.db
+
+# 이미지 저장 디렉토리 (필요한 경우 주석 처리)
+/images/
+
+# 모델 파일 (필요한 경우 주석 처리)
+*.h5
+*.pkl
+
+# 기타 임시 파일
+temp/
+tmp/ 
